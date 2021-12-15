@@ -1,0 +1,26 @@
+#search {
+    width: 120px;
+    height: 25px;
+    border: 1px solid green;
+    color: green;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+}
+
+#plus {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(0, 175, 0);
+    border: none;
+}
+
+#create_account {
+    box-shadow: 5px 5px black;
+    width: 180px;
+    height: 30px;
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+}
