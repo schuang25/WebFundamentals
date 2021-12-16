@@ -1,0 +1,44 @@
+.nav {
+    background-color: slategrey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-links {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-end;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px;
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 5px 5px black;
+}
