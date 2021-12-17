@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid gray;
+    border-radius: 3px;
+}
+
+#banner {
+    height: 100px;
+    width: inherit;
+    background-color: lightskyblue;
+}
+
+#profile_pic {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 50px;
+}
+
+#user_card {
+    padding: 50px 30px 30px 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#location {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#location > * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#map_marker {
+    height: 15px;
+}
+
+#profile_edit {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#profile_edit > * {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#gear {
+    height: 15px;
+}

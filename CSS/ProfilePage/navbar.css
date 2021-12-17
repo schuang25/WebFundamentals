@@ -1,0 +1,47 @@
+.nav {
+    background-color: slategrey;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-title {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-links {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px;
+}
+
+a.nav-link {
+    color: silver;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 3px 3px black;
+    margin-left: auto;
+    margin-right: 20px;
+}
