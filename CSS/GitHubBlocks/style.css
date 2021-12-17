@@ -2,11 +2,7 @@ img.octocat {
     height: 200px;
 }
 
-h1 {
-    text-align: center;
-}
-
-p {
+h1, p{
     text-align: center;
 }
 
@@ -18,7 +14,7 @@ p {
     display: block;
 }
 
-div {
+.container > div {
     height: 200px;
     margin-bottom: 20px;
     padding: 20px;
