@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.nav {
+    background-color: slategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.body {
+    display: flex;
+    margin-top: 20px;
+}
+
+.definition_list {
+    flex: 2;
+}
+
+.definition {
+    margin: 0px 20px 20px 0px;
+    display: flex;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 2px;
+    height: 160px;
+}
+
+.word {
+    flex: 1;
+    text-align: center;
+}
+
+.word > h3 {
+    font-style: italic;
+}
+
+.word > span {
+    font-style: italic;
+}
+
+.word > * {
+    padding-bottom: 10px;
+}
+
+.like_button {
+    background-color: goldenrod;
+    text-align: center;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+    margin: 10px 0px;
+    height: 30px;
+}
+
+.description {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.add_definition {
+    flex: 1;
+}
+
+.add_box {
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    height: 100px;
+}
+
+
+
+.add_button {
+    background-color: lightgreen;
+    text-align: center;
+    box-shadow: 3px 3px black;
+    margin: 10px;
+    padding: 5px;
+    height: 30px;
+}

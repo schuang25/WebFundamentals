@@ -1,0 +1,159 @@
+.body {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+
+.connections {
+    flex: 1;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.info_box {
+    border: 3px solid gray;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.personal_info {
+    margin: 0 auto;
+    padding-right: 30px;
+    flex: 2;
+}
+
+#banner {
+    height: 100px;
+    width: inherit;
+    background-color: lightskyblue;
+}
+
+#profile_pic {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 50px;
+    border-radius: 50%;
+}
+
+#user_card {
+    padding: 50px 30px 30px 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#location {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#location > * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#map_marker {
+    height: 15px;
+}
+
+#profile_edit {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#profile_edit > * {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#gear {
+    height: 15px;
+}
+
+.title {
+    height: 40px;
+    padding: 0px 10px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+h4 {
+    margin: 0px 0px 10px 0px;
+}
+
+.notifications {
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-right: 10px;
+    width: auto;
+    min-width: 30px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section_title {
+    color: white;
+}
+
+.info_body {
+    padding: 0px 10px 10px;
+}
+
+.connection_request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.profile_small {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.confirm_deny {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.request_response {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.connection_info {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.connection_info > * {
+    margin-right: 10px;
+}
+
+#view_more {
+    height: 20px;
+    padding: 5px;
+    border: 3px solid gray;
+    border-radius: 3px;
+}
